@@ -2,7 +2,9 @@ Firebase Unity SDK
 ==================
 
 The Firebase Unity SDK provides Unity packages for the following Firebase
-features on *iOS* and *Android*:
+features on *iOS*, *tvOS* and *Android*.
+
+Note: Firebase Dynamic Links is not supported on tvOS.
 
 | Feature                            | Unity Package                     |
 |:----------------------------------:|:---------------------------------:|
@@ -67,6 +69,44 @@ Support
 
 Release Notes
 -------------
+### 10.7.0
+- Changes
+    - General: Update to Firebase C++ SDK version 10.7.0.
+    - General (Android): Update Firebase Android BoM dependencies to v31.3.0.
+    - General (iOS): Update Firebase Cocoapods dependencies to v10.7.0.
+    - Messaging (Android): Generate the custom MessagingUnityPlayerActivity
+      as a Java file instead of precompiling it. This is to better support
+      changes with the UnityPlayerActivity, and GameActivity options, in
+      the Unity 2023 editor.
+
+### 10.6.0
+- Changes
+    - General (Android): Update to Firebase Android BoM version 31.2.3.
+    - General (iOS): Update to Firebase Cocoapods version 10.6.0.
+
+### 10.5.0
+- Changes
+    - General (Android): Update to Firebase Android BoM version 31.2.1.
+    - General (iOS): Update to Firebase Cocoapods version 10.5.0.
+
+### 10.4.0
+- Changes
+    - General (Android): Update to Firebase Android BoM version 31.2.0.
+    - General (iOS): Update to Firebase Cocoapods version 10.4.0.
+    - Firebase introduces Unity SDK support for tvOS, for Analytics,
+      Authentication, Crashlytics, Database, Firestore, Cloud Functions,
+      Installations, Messaging, Remote Config and Storage.
+    - Analytics: Added `SetConsent()` and `GetSessionIdAsync()` APIs.
+    - Crashlytics: Added `ReportUncaughtExceptionsAsFatal` property and `LogExceptionAsFatal` API.
+
+### 10.3.0
+- Changes
+    - General (Android): Update to Firebase Android BoM version 31.1.1.
+    - General (iOS): Update to Firebase Cocoapods version 10.3.0.
+    - Remote Config: Added `ConfigSettings.MinimumFetchIntervalInMilliseconds`,
+      which should be used instead of `MinimumFetchInternalInMilliseconds`. The
+      old one is considered deprecated, and will be removed with the next major release.
+
 ### 10.2.0
 - Changes
     - General (Android): Update to Firebase Android BoM version 31.1.0.
@@ -91,7 +131,7 @@ Release Notes
 
 ### 10.0.1
 - Changes
-    - Crashlytics (Android): Fixed a critical [issue](https://github.com/firebase/firebase-android-sdk/issues/4223) 
+    - Crashlytics (Android): Fixed a critical [issue](https://github.com/firebase/firebase-android-sdk/issues/4223)
       that was causing background crashes in specific cases.
 
 ### 10.0.0
@@ -100,7 +140,7 @@ Release Notes
     - General (Android): Update Firebase Android BoM dependencies to v31.0.0.
     - General (iOS): Update Firebase Cocoapods dependencies to v10.0.0.
     - General: Minimum supported editor version is now Unity 2019.
-    - General: Removed dependency on Parse Tasks. 
+    - General: Removed dependency on Parse Tasks.
     - Auth (Android/iOS): Deprecate `PhoneAuthProvider.MaxTimeoutMs`. The actual
       range is determined by the underlying SDK, ex. [PhoneAuthOptions.Builder in Android SDK](https://firebase.google.com/docs/reference/android/com/google/firebase/auth/PhoneAuthOptions.Builder).
     - Remote Config: Improve performance when setting default parameters
