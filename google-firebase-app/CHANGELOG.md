@@ -71,6 +71,34 @@ Support
 
 Release Notes
 -------------
+### 11.2.0
+- Changes
+    - General: Update to Firebase C++ SDK version 11.2.0.
+    - General (Android): Update Firebase Android BoM dependencies to v32.1.1.
+    - General (iOS): Update Firebase Cocoapods dependencies to v10.11.0.
+    - Remote Config (Desktop): Fixed numeric conversion when the system
+      language's number format uses commas as decimal points.
+    - Remote Config (Desktop): Fixed handling of time zones on Windows when the
+      time zone name in the current system language contains an accented
+      character or apostrophe.
+
+### 11.1.0
+- Changes
+    - General: Update to Firebase C++ SDK version 11.1.0.
+    - General (Android): Update Firebase Android BoM dependencies to v32.1.0.
+    - General (iOS): Update Firebase Cocoapods dependencies to v10.10.0.
+    - General (Android): Fix for deadlock within JniResultCallback, commonly seen
+      within Messaging, but affecting other products as well.
+    - General: Fix an [issue](https://github.com/firebase/firebase-unity-sdk/issues/726)
+      where AppCheck bundles were unintentionally included in App in the tgz.
+    - Auth: Fix a [crash](https://github.com/firebase/firebase-unity-sdk/issues/733)
+      that could occur when referencing CurrentUser.
+    - Auth: Remove internal methods.
+    - Database/Firestore (Desktop): Fixed a crash on Windows when the user's home
+      directory contains non-ANSI characters (Unicode above U+00FF).
+    - Storage (Desktop): Fixed a crash on Windows when uploading files from a path
+      containing non-ANSI characters (Unicode above U+00FF).
+
 ### 11.0.0
 - Changes
     - App Check: Adds support for Firebase App Check on Android, iOS, tvOS,
@@ -89,6 +117,9 @@ Release Notes
       deprecated methods will be removed in the *next* major release of the
       Firebase Unity SDK. *(Note: do not mix and match using the old
       and new methods or undefined behavior may result.)*
+    - Firestore: Added `Query.Count()`, which fetches the number of documents in
+      the result set without actually downloading the documents
+      ([#659](https://github.com/firebase/firebase-unity-sdk/pull/659)).
 
 ### 10.7.0
 - Changes
@@ -99,9 +130,6 @@ Release Notes
       as a Java file instead of precompiling it. This is to better support
       changes with the UnityPlayerActivity, and GameActivity options, in
       the Unity 2023 editor.
-    - Firestore: Added `Query.Count()`, which fetches the number of documents in
-      the result set without actually downloading the documents
-      ([#659](https://github.com/firebase/firebase-unity-sdk/pull/659)).
 
 ### 10.6.0
 - Changes
