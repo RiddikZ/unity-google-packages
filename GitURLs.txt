@@ -1,7 +1,5 @@
-﻿Sources:
+﻿Source:
 https://developers.google.com/unity/archive
-https://developer.android.com/games/pgs/unity/unity-start
-https://github.com/playgameservices/play-games-plugin-for-unity
 
 Google Packages:
 https://github.com/google/play-unity-plugins.git?path=/GooglePlayPlugins/com.google.android.appbundle
@@ -35,4 +33,5 @@ https://github.com/google/play-unity-plugins.git?path=/GooglePlayPlugins/com.goo
 https://github.com/google/play-unity-plugins.git?path=/GooglePlayPlugins/com.google.play.billing
 
 Google Play Games:
-https://github.com/RiddikZ/unity-google-packages.git?path=/google-play-games
+https://developer.android.com/games/pgs/unity/unity-start
+https://github.com/playgameservices/play-games-plugin-for-unity
