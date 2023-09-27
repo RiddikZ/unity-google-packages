@@ -35,3 +35,4 @@ https://github.com/google/play-unity-plugins.git?path=/GooglePlayPlugins/com.goo
 https://github.com/google/play-unity-plugins.git?path=/GooglePlayPlugins/com.google.play.billing
 
 Google Play Games:
+https://github.com/RiddikZ/unity-google-packages.git?path=/google-play-games
