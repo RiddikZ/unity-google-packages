@@ -1,0 +1,37 @@
+﻿Sources:
+https://developers.google.com/unity/archive
+https://developer.android.com/games/pgs/unity/unity-start
+https://github.com/playgameservices/play-games-plugin-for-unity
+
+Google Packages:
+https://github.com/google/play-unity-plugins.git?path=/GooglePlayPlugins/com.google.android.appbundle
+https://github.com/google/play-unity-plugins.git?path=/GooglePlayPlugins/com.google.play.common
+https://github.com/google/play-unity-plugins.git?path=/GooglePlayPlugins/com.google.play.core
+https://github.com/google/play-unity-plugins.git?path=/GooglePlayPlugins/com.google.play.review
+
+Tools:
+https://github.com/RiddikZ/unity-google-packages.git?path=/google-external-dependency-manager
+
+Firebase:
+https://github.com/RiddikZ/unity-google-packages.git?path=/google-firebase-app
+https://github.com/RiddikZ/unity-google-packages.git?path=/google-firebase-analytics
+https://github.com/RiddikZ/unity-google-packages.git?path=/google-firebase-crashlytics
+https://github.com/RiddikZ/unity-google-packages.git?path=/google-firebase-remote-config
+https://github.com/RiddikZ/unity-google-packages.git?path=/google-firebase-auth
+https://github.com/RiddikZ/unity-google-packages.git?path=/google-firebase-storage
+
+https://github.com/RiddikZ/unity-google-packages.git?path=/google-firebase-crashlytics#v10.7.0
+
+Android:
+https://github.com/google/play-unity-plugins.git?path=/GooglePlayPlugins/com.google.android.appbundle
+
+Google Play:
+https://github.com/google/play-unity-plugins.git?path=/GooglePlayPlugins/com.google.play.core
+https://github.com/google/play-unity-plugins.git?path=/GooglePlayPlugins/com.google.play.common
+https://github.com/google/play-unity-plugins.git?path=/GooglePlayPlugins/com.google.play.review
+https://github.com/google/play-unity-plugins.git?path=/GooglePlayPlugins/com.google.play.appupdate
+https://github.com/google/play-unity-plugins.git?path=/GooglePlayPlugins/com.google.play.assetdelivery
+https://github.com/google/play-unity-plugins.git?path=/GooglePlayPlugins/com.google.play.instant
+https://github.com/google/play-unity-plugins.git?path=/GooglePlayPlugins/com.google.play.billing
+
+Google Play Games:
