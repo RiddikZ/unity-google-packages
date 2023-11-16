@@ -17,6 +17,7 @@ https://github.com/RiddikZ/unity-google-packages.git?path=/google-firebase-crash
 https://github.com/RiddikZ/unity-google-packages.git?path=/google-firebase-remote-config
 https://github.com/RiddikZ/unity-google-packages.git?path=/google-firebase-auth
 https://github.com/RiddikZ/unity-google-packages.git?path=/google-firebase-storage
+https://github.com/RiddikZ/unity-google-packages.git?path=/google-firebase-firestore
 
 https://github.com/RiddikZ/unity-google-packages.git?path=/google-firebase-crashlytics#v10.7.0
 
