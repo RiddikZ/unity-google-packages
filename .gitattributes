@@ -2,3 +2,4 @@
 * text=auto
 *.bundle filter=lfs diff=lfs merge=lfs
 *.dll filter=lfs diff=lfs merge=lfs
+*.so filter=lfs diff=lfs merge=lfs
