@@ -8,6 +8,7 @@ https://github.com/google/play-unity-plugins.git?path=/GooglePlayPlugins/com.goo
 https://github.com/google/play-unity-plugins.git?path=/GooglePlayPlugins/com.google.play.review
 
 Tools:
+offic: https://github.com/googlesamples/unity-jar-resolver.git?path=upm
 https://github.com/RiddikZ/unity-google-packages.git?path=/google-external-dependency-manager
 
 Firebase:
